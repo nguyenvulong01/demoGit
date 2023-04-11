@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="learnByMyself16" />
+        <module name="currency-conversion-service" />
+        <module name="spring-cloud-config-server" />
+        <module name="be-demo" />
+        <module name="aws-image-upload" />
+        <module name="currency-exchange-service" />
+        <module name="limits-service" />
+        <module name="naming-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demoSendEmail" target="1.8" />
+      <module name="my-app" target="1.8" />
+      <module name="netflix-eureka-naming-server" target="17" />
+      <module name="spring-boot" target="1.8" />
+      <module name="spring-boot-security-jwt" target="1.8" />
+      <module name="springsecsection6" target="17" />
+      <module name="springsecsection9" target="17" />
+      <module name="springsecsection_13" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="aws-image-upload" options="-parameters" />
+      <module name="be-demo" options="-parameters" />
+      <module name="currency-conversion-service" options="-parameters" />
+      <module name="currency-exchange-service" options="-parameters" />
+      <module name="demoSendEmail" options="-parameters" />
+      <module name="limits-service" options="-parameters" />
+      <module name="my-app" options="-parameters" />
+      <module name="naming-server" options="-parameters" />
+      <module name="netflix-eureka-naming-server" options="-parameters" />
+      <module name="spring-boot-security-jwt" options="-parameters" />
+      <module name="spring-cloud-config-server" options="-parameters" />
+      <module name="springsecsection6" options="-parameters" />
+      <module name="springsecsection9" options="-parameters" />
+      <module name="springsecsection_13" options="-parameters" />
+    </option>
+  </component>
+</project>
